@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>資一甲心智圖&讀書心得 - 關於網站</title>
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-dark bg-dark">
+	  <div class="container">
+	    <a class="navbar-brand" href="index.html">資一甲心智圖&讀書心得</a>
+	    <button class="navbar-toggler btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#nav">
+	      <i class="fa-solid fa-bars"></i> 選單
+	    </button>
+	    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="nav">
+	      <div class="offcanvas-header">
+
+	        <h5 class="offcanvas-title">資一甲心智圖&讀書心得</h5>
+
+	        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+	      </div>
+	      <div class="offcanvas-body">
+
+	        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+	          <li class="nav-item">
+	            <a class="nav-link" href="index.html"><i class="fa-solid fa-globe"></i> 首頁</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="mindmap.html"><i class="fa-solid fa-comment-dots"></i> 心智圖</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="review.html"><i class="fa-solid fa-address-book"></i> 讀書心得</a>
+	          </li>
+	          <hr/>
+	          <li class="nav-item">
+	            <a class="nav-link active" href="about.html"><i class="fa-solid fa-sitemap"></i> 關於網站</a>
+	          </li>
+	        </ul>
+
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- Banner -->
+	<div class="container-fluid" style="background: #333333;">
+		<div class="row align-items-center text-center">
+			<div class="col banner">
+				<h1>關於本網站</h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- Body -->
+
+	<div class="container mTop30 text-center">
+		<div class="row">
+			<div class="col-md-6 mBtm20">
+				<h2 class="bold mBtm20">網站地圖</h2>
+				<p><a href="index.html">首頁 (index.html)</a></p>
+				<p><a href="mindmap.html">心智圖 (mindmap.html)</a></p>
+				<p><a href="review.html">閱讀心得 (review.html)</a></p>
+				<p><a href="about.html">關於網站 (about.html)</a></p>
+			</div>
+			<div class="col-md-5 mBtm20">
+				<h2 class="bold mBtm20">網站資料</h2>
+				<p>此網站由 資111甲32號 盧宇恩 架設。</p>
+				<p>網頁語言及編碼：HTML+CSS+JavaScript</p>
+				<p>目的：紀錄國語文進化之路上的點點滴滴</p>
+				<p>歷程：<a href="https://lensverymuch.com/TMC4-24636">第四屆心智圖大賽</a> <span class="badge bg-warning">NEW</span></p>
+				
+			</div>
+		</div>
+	</div>
+
+	<center>
+		<div class="container mBtm20">
+			<div class="col-9 border1px">
+				<div id="slider" class="carousel carousel-dark slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active" data-bs-interval="5000">
+							<img src="img/mindmap/leoTsai.png" class="d-block w-100">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+							<img src="img/mindmap/jackLu.png" class="d-block w-100">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+							<img src="img/mindmap/jayChang.png" class="d-block w-100">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+						<span class="visually-hidden">上一個</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+						<span class="carousel-control-next-icon"></span>
+						<span class="visually-hidden">下一個</span>
+					</button>
+				</div>
+			</div>
+		</div>	
+	</center>
+
+</body>
+<footer>
+	<div class="container-fluid text-center bg-gray sticky-bottom">
+		<div class="row" style="padding: 10px;">
+			<span>copyright © Jack <span id="year"></span></span>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>

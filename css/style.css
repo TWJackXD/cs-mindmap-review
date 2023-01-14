@@ -1,0 +1,22 @@
+body{font-family: 'Noto Sans TC', sans-serif;}
+h1{font-weight: bold; color:white}
+footer{color:white;}
+a:link{text-decoration: none;}
+img{border-radius: 10px;}
+
+.bold{font-weight: bold;}
+
+.banner{padding-top: 10vh; padding-bottom: 10vh; padding-left: 15vw; padding-right: 15vw;}
+.bannerIMG{padding-top: 9vh; padding-bottom: 9vh; padding-left: 8vw; padding-right: 8vw;}
+
+.mTop10{margin-top:10px;} .mTop20{margin-top:20px} .mTop30{margin-top:30px;}
+.mBtm10{margin-bottom: 10px;} .mBtm20{margin-bottom: 20px;} .mBtm30{margin-bottom: 30px;}
+
+.btn1{padding-top: 10px; padding-bottom: 10px; padding-left: 15px; padding-right: 15px; transition: 0.3s;}
+.btn1:hover{background:	gray; transition: 0.3s;}
+.border1px{border: solid 2px #000; border-radius: 10px;}
+
+.midIMG{margin-right: 10px; margin-left: 10px;}
+.caption{color:black;}
+
+.bg-gray{background-color: #545454}
